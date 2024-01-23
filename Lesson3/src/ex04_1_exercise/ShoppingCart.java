@@ -18,11 +18,12 @@ public class ShoppingCart {
 //5.  Run the code.
     
     public static void main(String[] args) {
- //VARIABLES
-//        String custName = "Bhabha", itemDesc = "20 life jackets";
-//        String message;
-//        message = custName + " has ordered: " + itemDesc;
-//        System.out.println(message);
+        
+// VARIABLES
+        String custName = "Bhabha", itemDesc = "20 life jackets";
+        String message;
+        message = custName + " has ordered: " + itemDesc;
+        System.out.println(message);
 
 
 
