@@ -32,6 +32,6 @@ public class ShoppingCart {
         total = price * quant * tax;
         System.out.println(message);
         System.out.println("Total cost with tax is R" + total);
-
+        
     }
 }
