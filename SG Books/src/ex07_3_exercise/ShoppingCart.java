@@ -22,7 +22,7 @@ public class ShoppingCart {
         System.out.println("Long number is: " + longNum);
         
 	// Assign the long to the int and print the int variable.
-        int1 = (int)longNum;
+        int1 = (int)longNum; //type casted
         System.out.println("After casting to int: " + int1);
         
     }

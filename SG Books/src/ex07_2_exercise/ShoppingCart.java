@@ -27,12 +27,13 @@ public class ShoppingCart {
                        
 	// Put the full name back together, using StringBuilder append method.
 	//   You can just enter the String literal for the last name.
-	//   Print the full name.
-        //   sb.append(" Smith");
-        //   System.out.println("Full name = " + sb);
+	//  Print the full name.
+           sb.append(" Smith");
+           System.out.println("Full name = " + sb);
         
         
         //Challenge
+        //NOTE: substring(int beginIndex)
         sb.append(custName.substring(spaceIdx));
         System.out.println("Challenge: " + sb);
         
