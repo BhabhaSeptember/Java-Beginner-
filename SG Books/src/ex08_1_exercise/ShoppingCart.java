@@ -13,7 +13,7 @@ public class ShoppingCart {
         // Call the setColor method on item1. Print the new color value from
         //   item1 if the method returns true.  Otherwise print an "invalid color"
         //   message.
-        if (item1.setColor(' ')) {
+        if (item1.setColor('G')) {
             System.out.println("Item1 color: " + item1.color);
         } else {
             System.out.println("Oops, invalid color!");
