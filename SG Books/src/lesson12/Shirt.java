@@ -28,6 +28,25 @@ public class Shirt extends Clothing {
     
     
     private char fit = 'U';
+    
+    public Shirt () {       
+    }
+    
+    public Shirt(char fit) {
+        this(29.99, fit);
+    }
+    
+//    public Shirt(int itemID, String description, char colorCode, double price, char fit){
+//        super (itemID, description, colorCode, price);
+//        this.fit = fit;
+//    }
+    //
+    //
+    //
+     public Shirt(double price, char fit){
+        super (price);
+        this.fit = fit;
+    }
 
     /**
      * @return the fit

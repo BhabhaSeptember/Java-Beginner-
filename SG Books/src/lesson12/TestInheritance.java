@@ -28,7 +28,22 @@ public class TestInheritance {
 //        mySocks.setSize('S');
 //        mySocks.display();
 
-
-
+ 
+//Shirt myShirt = new Shirt(1, "Round neck", 'B', 49.99, 'S');
+//myShirt.display();
+//System.out.println("Fit = " + myShirt.getFit());
+// 
+//
+//
+//
+Shirt myShirt = new Shirt(59.99, 'S');
+System.out.println("1. Fit = " + myShirt.getFit() );
+        myShirt.display();
+        
+        
+Shirt shirt2 = new Shirt('M');
+System.out.println("\n2. Fit = " + shirt2.getFit());
+shirt2.display();
+        
     }
 }

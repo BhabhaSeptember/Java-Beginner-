@@ -16,16 +16,22 @@ public class Clothing {
 //    private double price;
 //    private char color;
 //    private String fit;
-    
- private int itemID;
- private String desc = "--description required--";
- private char colorCode = 'U';
- private double price = 0.0;
+    //
+    //
+    //
+// private int itemID;
+// private String desc = "--description required--";
+// private char colorCode = 'U';
+// private double price = 0.0;
+    //
+    //
+    //
+    private double price = 0.0;
 
-    //METHODS
- 
- 
- 
+    public Clothing() {
+
+    }
+
 //    public void setSize(char size) {
 //        this.size = size;
 //    }
@@ -85,59 +91,65 @@ public class Clothing {
 //    public void setFit(String fit) {
 //        this.fit = fit;
 //    }
+//    public Clothing(int itemID, String desc, char color, double price) {
+//        this.itemID = itemID;
+//        this.desc = desc;
+//        this.colorCode = color;
+//        this.price = price;
+//    }
+    
+    //
+    //
+    //
+    
+       public Clothing(double price) {
+        this.price = price;
+    }
 
- 
- public Clothing (int itemID, String desc, char color, double price) {
-     this.itemID = itemID;
-     this.desc = desc;
-     this.colorCode = color;
-     this.price = price;
- }
 //    public void display() {
 //        System.out.println("Size is: " + size);
 //    }
-
     /**
      * @return the itemID
      */
-    public int getItemID() {
-        return itemID;
-    }
-
-    /**
-     * @param itemID the itemID to set
-     */
-    public void setItemID(int itemID) {
-        this.itemID = itemID;
-    }
+//    public int getItemID() {
+//        return itemID;
+//    }
+//
+//    /**
+//     * @param itemID the itemID to set
+//     */
+//    public void setItemID(int itemID) {
+//        this.itemID = itemID;
+//    }
 
     /**
      * @return the desc
      */
-    public String getDesc() {
-        return desc;
-    }
-
-    /**
-     * @param desc the desc to set
-     */
-    public void setDesc(String desc) {
-        this.desc = desc;
-    }
-
-    /**
-     * @return the colorCode
-     */
-    public char getColorCode() {
-        return colorCode;
-    }
-
-    /**
-     * @param colorCode the colorCode to set
-     */
-    public void setColorCode(char colorCode) {
-        this.colorCode = colorCode;
-    }
+//    public String getDesc() {
+//        return desc;
+//    }
+//
+//    /**
+//     * @param desc the desc to set
+//     */
+//    public void setDesc(String desc) {
+//        this.desc = desc;
+//    }
+//
+//    /**
+//     * @return the colorCode
+//     */
+//    public char getColorCode() {
+//        return colorCode;
+//    }
+//
+//    /**
+//     * @param colorCode the colorCode to set
+//     */
+//    public void setColorCode(char colorCode) {
+//        this.colorCode = colorCode;
+//    }
 
     /**
      * @return the price
@@ -151,6 +163,18 @@ public class Clothing {
      */
     public void setPrice(double price) {
         this.price = price;
+    }
+
+//    public void display() {
+//        System.out.println("ItemID = " + itemID + "\n"
+//                + "Color = " + colorCode + "\n"
+//                + "Price = R" + price + "\n"
+//                + "Description = " + desc);
+//
+    //
+    //
+    public void display() {
+        System.out.println("Price = R" + price);
     }
 
 }
