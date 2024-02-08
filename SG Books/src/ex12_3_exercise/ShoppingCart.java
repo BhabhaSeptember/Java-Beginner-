@@ -16,9 +16,8 @@ public class ShoppingCart {
 
     public static void main(String[] args) {
         // declare and instantiate a Shirt object using an Item reference type
-//        Item myShirt = new Shirt(59.99, 'S', 'P');
-
-        Item myShirt = new Trousers();
+        Item myShirt = new Shirt(59.99, 'S', 'P'); //valid item test
+        //Item myShirt = new Trousers(); //invalid item test
 
         // call the display method on the object, then the getColor method
         myShirt.display();

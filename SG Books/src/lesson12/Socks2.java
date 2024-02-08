@@ -14,13 +14,13 @@ public class Socks2 extends Clothing2 {
         super(itemID, desc, price, colorCode);
     }
 
-    @Override
+    @Override //forced by asbtract superclass to implement fields
     public double getPrice() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return 7.99;
     }
 
     @Override
     public void display() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+
     }
 }
